@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="105.135" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2303526\eclipse-workspace\Featured_News\target\test-classes;C:\Users\2303526\eclipse-workspace\Featured_News\target\classes;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\2303526\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\2303526\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2303526\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2303526\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2303526\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\2303526\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\2303526\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\2303526\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\2303526\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\2303526\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\2303526\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\2303526\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2303526\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2303526\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2303526\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2303526\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2303526\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2303526\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\2303526\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2303526\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\2303526\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2303526\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2303526\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2303526\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\2303526\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2303526\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\2303526\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\2303526\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\2303526\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\2303526\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\2303526\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\2303526\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2303526\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\2303526\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2303526\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2303526\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2303526\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2303526\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2303526\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\2303526\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\2303526\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\2303526\AppData\Local\Temp\2\surefire670194658754191566\surefirebooter-20240117092811810_3.jar C:\Users\2303526\AppData\Local\Temp\2\surefire670194658754191566 2024-01-17T09-28-11_582-jvmRun1 surefire-20240117092811810_1tmp surefire_0-20240117092811810_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2303526\eclipse-workspace\Featured_News\target\test-classes;C:\Users\2303526\eclipse-workspace\Featured_News\target\classes;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\2303526\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\2303526\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2303526\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2303526\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2303526\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\2303526\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\2303526\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\2303526\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\2303526\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\2303526\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\2303526\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\2303526\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\2303526\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\2303526\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2303526\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2303526\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2303526\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2303526\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2303526\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2303526\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\2303526\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\2303526\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2303526\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\2303526\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2303526\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2303526\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2303526\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\2303526\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2303526\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\2303526\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\2303526\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\2303526\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\2303526\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\2303526\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\2303526\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2303526\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\2303526\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2303526\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2303526\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2303526\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2303526\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2303526\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\2303526\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\2303526\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2303526\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2303526"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2303526\eclipse-workspace\Featured_News"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\2303526\AppData\Local\Temp\2\surefire670194658754191566\surefirebooter-20240117092811810_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS"/>
+    <property name="user.name" value="2303526"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.32+13-CA"/>
+    <property name="localRepository" value="C:\Users\2303526\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2303526\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\2303526\eclipse-workspace\Featured_News"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Zulu\zulu-17\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.9.6\bin;C:\Users\2303526\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.2+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="ValidateUser" classname="TestCases.TC_004_ValidateAppsAndTools" time="8.729">
+    <system-out><![CDATA[User Information : 
+Name : Gandolkar, Harish (Cognizant)
+Email : 2303526@cognizant.com
+============================================================================
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Jan 17, 2024 9:28:39 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing chrome (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: An existing connection was forcibly closed by the remote host. (os error 10054)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="validateImageCountAndHeaders" classname="TestCases.TC_004_ValidateAppsAndTools" time="0.753">
+    <system-out><![CDATA[Number of Images : 5
+Headers : 
+1) WEF day 2: Trust in the Age of AI
+2) Our CEO Ravi Kumar on charting Cognizant’s new course
+3) Microsoft and Cognizant collaborate to unveil gen AI-powered Innovation Assistant
+4) Oxford Economics and Cognizant: Generative AI could inject $1 trillion into U.S. economy over 10 years
+5) CEO blog: Educational innovation through AI
+===========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="validateNewsItems" classname="TestCases.TC_004_ValidateAppsAndTools" time="29.453">
+    <system-out><![CDATA[News Information : 
+
+1) News Title : WEF day 2: Trust in the Age of AI
+
+Author Name : Synylo, Hadley (Cognizant)
+
+News : Day 2
+Day 2 of the WEF Annual Meeting saw Cognizant leaders engaging in interesting and exciting topics. A super excited Ravi Kumar S spoke about Cognizant’s participation, saying “As a technology company/ consulting firm, we play an important and unique role in building trust as we navigate through the periods of change.”
+Prasad Sankaran and Jane Livesey spoke on a panel “Trust in the Age of AI” moderated by Ray Wang from Constellation Research, Inc. CEOs, founders, and presidents of companies across the world joined Ray at the Cognizant hotspot to hear from Cognizant leaders.  
+=========================================================================================================
+2) News Title : Our CEO Ravi Kumar on charting Cognizant’s new course
+
+Author Name : Vasisht, Rashmi (Cognizant)
+
+News : As we kick-off the new year, incredibly proud to see our CEO Ravi Kumar on the cover of ET Edge Insights, a new and prestigious business magazine from The Times Group, the leading media house in India. 
+The cover story headlined ‘Charting Cognizant’s New Course’ brings an incisive analysis of Ravi’s strategic vision and priorities to steer the company into a new era of a growth mindset and transformation. Spread across 10 pages, the story also features impactful and engaging photography from his first visit to India. 
+“India is at the heart of who we are and is at the center of our strategy,” Ravi told ET Insights. Noting that over 70% of associates are based in the country, he says, “We do believe that India will be the office of the world for the next decade. My unwavering commitment lies in ensuring our teams receive training, upskilling opportunities and consistent professional growth.” 
+From a nuclear scientist to a global CEO, Ravi also shared his secret recipe for success, “I thrive on vulnerability and take it as a strength rather than a weakness. If you are vulnerable, you are also very self-aware. Because of this awareness, I have been able to understand my weaknesses or areas that I can do better at and turn them into strengths. I have always been hardworking and will relentlessly pursue anything that I take up. All these traits have kept me self-aware and realistic.” 
+Underscoring his commitment to galvanizing innovation alongside leading with our values, and a focus on serving communities, Ravi highlighted, “I am especially optimistic about the strength of our portfolio and partner ecosystem, being an employer of choice and creating a growth mindset are among my top priorities. We have the potential, the heritage and history to be an iconic growth company in our sector.”
+The magazine also features eminent luminaries, including, Kiran Mazumdar-Shaw, executive chairperson of Biocon Limited, Steve H. Hanke, a renowned economist at the John Hopkins University, Viswanathan Anand, India’s five-time world chess champion, and others. 
+ET Edge Insights is in circulation to over 10,000 senior business leaders and decision-makers, including global CEOs, eminent personalities, thought leaders, and policy makers.   
+You can read the full story here.
+=========================================================================================================
+3) News Title : Microsoft and Cognizant collaborate to unveil gen AI-powered Innovation Assistant
+
+Author Name : Samuel, Alexis (Cognizant)
+
+News : Ideas are like lightning bolts – they strike anytime, anywhere. As we continue to advance Cognizant’s grassroots innovation initiative, Bluebolt, we’re investing in the best emerging technologies and resources that will speed the ideation and collaboration that’s essential to powering innovation for the clients we serve.
+That’s why today, I’m proud to announce that we’ve integrated a generative AI (gen AI)-powered Innovation Assistant in collaboration with Microsoft that supercharges how Cognizant’s employees innovate, develop client-facing solutions, and solve problems through Bluebolt.
+Launched last year and building on our decade-long focus on innovation, Bluebolt empowers our associates globally to harvest ideas – big and small – with the goal of advancing our clients’ success. At its heart, it strengthens our ability to co-innovate with clients – a growing need as they grapple with understanding and applying gen AI.
+By integrating a new gen AI-powered innovation assistant, we’re adding horsepower to Bluebolt, driving greater creativity and ideation across our more than 350,000 professionals who are working to solve our client’s most pressing business challenges.
+The Innovation Assistant accelerates how our teams around the world contribute ideas that can help our clients realize new value and meet competitive threats and customer demands more effectively. It enables our employees to access virtual guidance and real-world support by helping them harness Cognizant’s full depth of expertise, past knowledge, and co-innovation capabilities.
+What’s noteworthy is the assistant is among the largest known enterprise-scale deployments of chatbot technology and is designed to generate context-based ideas and solutions while safeguarding sensitive information and client confidentiality.
+With this launch, we’re taking another step forward in revolutionizing our approach to innovation. We’re helping our clients stay on the cutting edge of business transformation through a deeply trusted level of collaboration and co-innovation.
+Here are a few ways we’re already seeing major progress:
+Our employees have already submitted more than 100,000 Bluebolt ideas – surpassing our end of year goal. We’re continuing to raise the bar on more submissions from our associates in the year ahead and have a strong rewards and recognition program in place.
+We’ve already implemented 21,000 of these ideas in the services that we deliver to clients.
+We have also launched Bluebolt Garage, a program that capitalizes on our bench capacity and Gen C talent to develop rapid prototypes.
+Innovation is a mindset – it’s a lens through which we imagine the potential of modern business to improve everyday life. And at Cognizant, we believe this power lives in all of us.
+We’re confident our continued investment in Bluebolt will be an important driver to the momentum we continue to see in the crucial work we’re doing with thousands of leading enterprises around the world. 
+Read the full press release here.
+=========================================================================================================
+4) News Title : Oxford Economics and Cognizant: Generative AI could inject $1 trillion into U.S. economy over 10 years
+
+Author Name : Busateri, Annette (Cognizant)
+
+News : In partnership with Oxford Economics, Cognizant revealed findings from its new economic impact study New Work, New World, which predicted that 90% of jobs will be disrupted in some way by generative AI (gen AI), setting the stage for a profound shift in how we approach work, productivity and economic growth. The study also found that the technology's impact will be influenced by the rate of business adoption and how quickly individuals can adapt to new ways of working.
+The research unveiled key insights, including:
+AI adoption will skyrocket over the next decade before settling into maturity
+Economic advancement could soar
+Simultaneously, the job market could be disrupted
+Jobs with higher levels of knowledge work may be most affected
+Even CEOs will feel an impact
+Read the full press release to learn more, then share with your network on LinkedIn. 
+=========================================================================================================
+5) News Title : Our growth mindset
+
+News : January 4
+Fortrea selects Cognizant as its technology transformation provider 
+Today we announced that Fortrea, a leading global provider of clinical development and patient access solutions to the life sciences industry, has selected Cognizant as its strategic technology transformation provider.
+ By partnering with Cognizant, Fortrea aims to continue advancing its mission and delivering solutions to its pharmaceutical, biotechnology and medical device customers – and to the patients those customers serve – within the confines of a sound and secure digital infrastructure. Learn more here. 
+News : January 3
+Educational innovation through AI: Cognizant signs multi-year contract with Cambridge University Press & Assessment
+I'm pleased to share that Cambridge University Press & Assessment (Cambridge) has signed a multi-year contract with Cognizant with the goal of improving operational effectiveness, maintaining exam results integrity and staying competitive in the evolving education sector. Under the agreement, Cognizant will continue to provide application development and support services to Cambridge.
+ The agreement comes as Cambridge addresses the growing desire for digital engagement and innovative products that effectively meet the needs of learners, teachers, and researchers. In response to this demand, Cambridge and Cognizant will drive digital transformation, transition to a product-centric approach and leverage AI technology. Learn more here. 
+=========================================================================================================
+]]></system-out>
+  </testcase>
+  <testcase name="validateAppsAndTools" classname="TestCases.TC_004_ValidateAppsAndTools" time="8.593">
+    <system-out><![CDATA[Apps And Tools List : 
+
+1) Absence Management Global
+2) Account Lookup Tool
+3) ADP (NA)
+4) AppLens
+5) Associate 360 Global
+6) Benefits (NA)
+7) Bluebolt Central
+8) CAPPS (Ariba)
+9) Catalyst (Global)
+10) Cheers
+11) CMTR for approving timesheets - Cognizant Manager Transaction Review
+12) Cognizant 360
+13) Cognizant LEARN Global
+14) Cognizant People Engagement Survey Global
+15) Concur - IndiaTravel and Expenses for users in India
+16) Concur - U.S.Travel and Expenses for users in the United States
+17) Corporate Card (Amex)(Global)
+18) Country Risk Dashboards - Available for D+ global associates only
+19) CX App
+20) E-Letters
+21) Employee Assistance Program (EAP) for mental health and other wellbeing resources
+22) Engage (Yammer)
+23) ePay Payroll - UK/CEUK/CE
+24) ESA Global
+25) ESA Timesheet Global
+26) Excel
+27) Global Referral Global
+28) GoPerformPerformance Management Global
+29) HCM-Peoplesoft Global
+30) ID Card
+31) Identity Portal Global
+32) Incentive/Bonus Global
+33) Insight Compass
+34) KnowHub Global
+35) Leadership Performance…Leadership Performance Management (LPM)
+36) MainspringEnterprise delivery platform
+37) Manager Self-Service (HCM) Global
+38) MediBuddy (India)
+39) Meeting Concierge
+40) My Image Update - Global
+41) My Learning Studio Global
+42) MyAssignments Global
+43) MyCareer Global
+44) MyRewards
+45) MyService Portal Global
+46) On-Boarding
+47) One ITSoftware/Hardware Provisioning Global
+48) OneBCM
+49) OneCognizant Global
+50) OneNote
+51) OneTransportIndia
+52) Outlook
+53) Outreach Global
+54) Pay & Perks CE and Asia
+55) Payroll India
+56) Payroll NA
+57) PowerPoint
+58) Price Builder Global
+59) ProcessSpaceQuality Management
+60) Pursuit Advisory Portal
+61) Relocation Associate Request App
+62) Resource Management Global
+63) Salary Revision Global
+64) Sharepoint
+65) SmartSpaceEurope
+66) Special Pay - IndiaSpecial Pay
+67) Strategic Partner Global
+68) T&L Timesheet Argentina
+69) Teams
+70) The Hub(UK/CE)
+71) Travel and Expenses Concur Global
+72) TruTimeIndia
+73) Visa Maxout (NA)Visa Maxout (NA)
+74) Visa Request Global
+75) Visitor Management System - VMS India
+76) Welcome Center
+77) Winzone login
+78) Word
+]]></system-out>
+  </testcase>
+</testsuite>

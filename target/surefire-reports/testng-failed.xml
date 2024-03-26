@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="ValiadateUser(failed)" verbose="0">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.TC_004_ValidateAppsAndTools">
+        <methods>
+          <include name="validateImageCountAndHeaders"/>
+          <include name="setUp"/>
+          <include name="validateNewsItems"/>
+          <include name="validateAppsAndTools"/>
+          <include name="ValidateUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_004_ValidateAppsAndTools -->
+    </classes>
+  </test> <!-- ValiadateUser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

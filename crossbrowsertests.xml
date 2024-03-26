@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Suite">
+  <listeners>
+  	<listener class-name="utils.ExtentReportManager"></listener>
+  </listeners>
+  <test name="chromeTest">
+  	<parameter name="os" value="Windows"></parameter>
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="TestCases.TC_005_ValidateAppsAndTools"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="edgeTest">
+  	<parameter name="os" value="Windows"></parameter>
+  	<parameter name="browser" value="edge"></parameter>
+  	<classes>
+  		<class name="TestCases.TC_005_ValidateAppsAndTools"></class>
+  	</classes>
+  </test>
+</suite> <!-- Suite -->

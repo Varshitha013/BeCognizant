@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-17T09:28:19 IST" name="Suite" finished-at="2024-01-17T09:30:03 IST" duration-ms="104127">
+    <groups>
+    </groups>
+    <test started-at="2024-01-17T09:28:19 IST" name="ValiadateUser" finished-at="2024-01-17T09:30:03 IST" duration-ms="104127">
+      <class name="TestCases.TC_004_ValidateAppsAndTools">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_004_ValidateAppsAndTools@4fb61f4a]" started-at="2024-01-17T09:28:19 IST" name="setUp" finished-at="2024-01-17T09:29:14 IST" duration-ms="55034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidateUser()[pri:0, instance:TestCases.TC_004_ValidateAppsAndTools@4fb61f4a]" started-at="2024-01-17T09:29:14 IST" name="ValidateUser" finished-at="2024-01-17T09:29:23 IST" duration-ms="8706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUser -->
+        <test-method signature="validateImageCountAndHeaders()[pri:0, instance:TestCases.TC_004_ValidateAppsAndTools@4fb61f4a]" started-at="2024-01-17T09:29:23 IST" name="validateImageCountAndHeaders" finished-at="2024-01-17T09:29:24 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImageCountAndHeaders -->
+        <test-method signature="validateNewsItems()[pri:0, instance:TestCases.TC_004_ValidateAppsAndTools@4fb61f4a]" started-at="2024-01-17T09:29:24 IST" name="validateNewsItems" finished-at="2024-01-17T09:29:53 IST" duration-ms="29453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewsItems -->
+        <test-method signature="validateAppsAndTools()[pri:0, instance:TestCases.TC_004_ValidateAppsAndTools@4fb61f4a]" started-at="2024-01-17T09:29:53 IST" name="validateAppsAndTools" finished-at="2024-01-17T09:30:02 IST" duration-ms="8591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppsAndTools -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_004_ValidateAppsAndTools@4fb61f4a]" started-at="2024-01-17T09:30:02 IST" name="tearDown" finished-at="2024-01-17T09:30:03 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_004_ValidateAppsAndTools -->
+    </test> <!-- ValiadateUser -->
+  </suite> <!-- Suite -->
+</testng-results>
